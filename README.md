@@ -1,6 +1,6 @@
 # NgCordova: Angular 4 + Cordova boilerplate
 
-This project is using Angular 4 + Cordova boilerplate configurated to work together so you can start building your great Hybrid Cordova Mobile Apps in Angular 4.
+This project is using Angular 4 + Cordova boilerplate configurated to work together so you can start building your great Hybrid Cordova Mobile Apps in Angular 5.
 
 ## Installation
 
@@ -33,12 +33,14 @@ This project is using Angular 4 + Cordova boilerplate configurated to work toget
 * List available Cordova platforms: `cordova platform ls`
 * Add a desired platform: `cordova platform add [ browser | android | .. ]`
 
+## Build Cordova project
+
+* Run `cordova build [ browser | android | .. ]` to build the Cordova project.
+* For example android build .apk is located in: `platforms/android/build/outputs/apk/`
+
 ## Run Cordova app
 
 * After adding Cordova platform, we can run our app in desired platform: `cordova run [ browser | android | .. ]`
 * There is a known problem with emulating Android app using: `cordova emulate android`, so use `cordova run android`
 
-## Build Cordova project
 
-* Run `cordova build [ browser | android | .. ]` to build the Cordova project.
-* For example android build .apk is located in: `platforms/android/build/outputs/apk/`

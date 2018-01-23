@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   clickButton() {
-    alert("Button clicked");
+    alert("Wciśnięto przycisk");
   }
 }
